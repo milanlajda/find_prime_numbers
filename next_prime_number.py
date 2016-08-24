@@ -1,17 +1,38 @@
+def primenum_check(x):
+    counter=0
+    for i in range (1, x):
+        remainder = x%i
+        if remainder == 0:
+            counter=counter+1
+    if counter > 1:
+        pass
+    else:
+        print "%d is a prime number" %x
+
 def next_prime_num():
-    print "Current prime number is 1. Continue? Y N"
-    x=2
-    for y in range (2, 100):
-        x=y
-        if (x)%(x-1) != 0:
-            print "Next prime number is %s" %x
-        else:
-            continue
+
+    for x in range (1, 10000):
+        primenum_check(x)
 
 
-        x=x+1
+
 
 next_prime_num()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
