@@ -11,29 +11,8 @@ def primenum_check(x):
 
 def next_prime_num():
 
-    for x in range (1, 10000):
+    for x in range (1, 1000):
         primenum_check(x)
 
 
-
-
 next_prime_num()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
